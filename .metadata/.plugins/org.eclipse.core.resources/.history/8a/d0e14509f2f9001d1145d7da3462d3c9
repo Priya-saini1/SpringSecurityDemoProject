@@ -1,0 +1,39 @@
+package com.example.demo;
+
+public class UserModal {
+
+	String Uname;
+	String Password;
+	String email;
+	public UserModal() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public String getUname() {
+		return Uname;
+	}
+	public void setUname(String uname) {
+		Uname = uname;
+	}
+	public String getPassword() {
+		return Password;
+	}
+	public void setPassword(String password) {
+		Password = password;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public UserModal(String uname, String password, String email) {
+		super();
+		Uname = uname;
+		Password = password;
+		this.email = email;
+	}
+	
+	
+	
+}

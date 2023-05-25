@@ -1,0 +1,17 @@
+package com.example.demo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class UserService {
+
+	List<UserModal> list = new ArrayList<>();
+	public UserService() {
+		list.add(new UserModal("abc","abc","abc@gmail.com"));
+		list.add(new UserModal("xyz","xyz","xyz@gmail.com"));
+	}
+	
+}
